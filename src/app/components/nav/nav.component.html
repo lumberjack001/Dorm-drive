@@ -7,14 +7,11 @@
     <app-nav-links [style.fontWeight]="'600'" class="d-flex nav-links flex-row gap-5"></app-nav-links>
 
     <!-- <a href="https://q31xe07v493.typeform.com/to/KIrjw0En" class="partner-btn">PARTNER WITH US</a> -->
-    <!-- <button *ngIf="hide === false" (click)="toggleMenu()" class="menu"><img src="assets/icons/menu.png" alt=""></button> -->
-    <!-- <button *ngIf="hide != false" (click)="toggleMenu()" class="menu-close"><img src="assets/icons/menu.png" alt=""></button> -->
+    <button *ngIf="hide === false" (click)="toggleMenu()" class="menu"><img src="assets/icons/menu.png" alt=""></button>
+    <button *ngIf="hide != false" (click)="toggleMenu()" class="menu-close"><img src="assets/icons/menu.png" alt=""></button>
   </section>
 
-  <!-- <section class="nav-sm text-center" [attr.data-visible]="hide">
+  <section class="nav-sm text-center" [attr.data-visible]="hide">
     <app-nav-links [style.fontWeight]="'600'" class="d-flex nav-links-sm flex-column gap-4 mb-5"></app-nav-links>
-
-    <a data-bs-target="#exampleModalToggle" data-bs-toggle="modal" class="partner-btn-sm" (click)=" hide = false">PARTNER WITH US</a>
-     <a href="https://q31xe07v493.typeform.com/to/KIrjw0En" class="partner-btn-sm">PARTNER WITH US</a> 
-  </section> -->
+  </section>
 </nav>
