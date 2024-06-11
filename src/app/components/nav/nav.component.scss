@@ -28,6 +28,15 @@ nav{
   text-align: start;
 }
 
+.partner-btn{
+  padding-block: .5rem;
+  padding-inline: 1rem;
+  background-color: var(--secondary-color);
+  color: white;
+  // font-weight: bold;
+  border-radius: .3rem;
+}
+
 @media (max-width: 815px) {
   .menu, .menu-close{
     display: block;
