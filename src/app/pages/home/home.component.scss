@@ -1,0 +1,27 @@
+.home_hero{
+  height: 100vh;
+  background-image: url('/assets/imgs/hero_map.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.download-btn-sm{
+  width: 30%;
+}
+
+.hero_txt{
+  h1 {
+    font-size: clamp(24px, 2vw + 1rem, 60px);
+  }
+}
+
+.hero_img{
+  top: -50%;
+  right: 0%;
+  width: 700px;
+}
+
+.test{
+  height: 100vh;
+}
