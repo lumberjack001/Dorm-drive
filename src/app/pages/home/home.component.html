@@ -18,6 +18,153 @@
   </div>
 </section>
 
-<section class="test">
-  test
+<section class="what_we_container container-xxl mt-5" id="waitlist">
+  <h2 class="text-center" [style]="'color: var(--secondary-color);'">What we do?</h2>
+
+  <aside class="d-flex gap-5 my-5 pt-5">
+    <div class="text w-50 d-flex flex-column gap-4">
+      <h1 [style]="'color: var(--secondary-color);'">Never miss a class, again!</h1>
+      <p class="">DormDrive comes with a subsidized, one-time subscription package for students in tertiary institutions to ensure that they arrive in time for their daily functions in the school environment. 
+        Literally, MADE FOR STUDENTS.</p>
+      <form action="" class="d-flex waitlist">
+        <input type="text" name="" id="" placeholder="Enter your Email" class="px-3">
+        <button class="input-group-text" id="basic-addon2">Join Waitlist</button>
+
+      </form>
+    </div>
+    <div class="img w-50">
+      <img src="assets/imgs/driver_1.png" alt="" class="img-fluid">
+    </div>
+  </aside>
+  <aside class="d-flex gap-5 my-5 pt-5">
+    <div class="img w-50">
+      <img src="assets/imgs/student_1.png" alt="" class="img-fluid">
+    </div>
+    <div class="text w-50 d-flex flex-column gap-4 ">
+      <h1 [style]="'color: var(--secondary-color);'">Arrive in time, in style!</h1>
+      <p class="">DormDrive comes with a subsidized, one-time subscription package for students in tertiary institutions to ensure that they arrive in time for their daily functions in the school environment.</p>
+      <app-get-started-btn></app-get-started-btn>
+    </div>
+  </aside>
 </section>
+
+<section class="services container-xxl position-relative">
+  <h2 class="text-center mb-5" [style]="'color: var(--secondary-color);'">Why DormDrive?</h2>
+  <div class="services_wrapper position-relative">
+
+    <div class="services_img_container">
+      <img src="assets/imgs/book_mockup.svg" alt="" class="w-100">
+    </div>
+
+    <div class="services_grid_container">
+     
+      <div class="service_grid_item">
+        <div class="service_item_img">
+          <img src="assets/icons/Icon.svg" alt="">
+        </div>
+
+        <h4 class="fw-bold">Good for <span class="fw-normal">everyone, <br></span> Best for <span class="fst-italic" [style]="'color: var(--secondary-color)'">students</span></h4>
+        <p>With subscription packages and subsidized driving plans, DormDrive offers all
+           Nigerian students the chance to always be on time to every event. Funded wallets,
+            cashbacks, VTU are amongst the different packages available to every DormDrive
+             user. </p>
+
+        <a href="#" class="link_btn">Get started  <span class="ps-3">→</span></a>
+      </div>
+
+      <div class="service_grid_item">
+        <div class="service_item_img">
+          <img src="assets/icons/Icon-1.svg" alt="">
+        </div>
+
+        <h4 class="fw-bold">We're going  <span class="fst-italic" [style]="'color: var(--secondary-color)'">global</span></h4>
+        <p>Exciting News: We're Going Global! Get ready to experience seamless transportation wherever you are. Stay tuned for our expansion into new cities worldwide.
+          <br> <br>
+
+          How to join the ride early?</p>
+
+        <a href="#waitlist" class="link_btn">Join Waitlist  <span class="ps-3">→</span></a>
+
+
+      </div>
+      <div class="service_grid_item">
+        <div class="service_item_img">
+          <img src="assets/icons/Icon-2.svg" alt="">
+        </div>
+
+        <h4 class="fw-bold">Your data is  <span class="fst-italic" [style]="'color: var(--secondary-color)'">safe & secure</span></h4>
+        <p>While employing state-of-the-art encryption protocols and stringent security measures, DormDrive ensures that it’s users never have to worry about losing their personal information for any reason. <br> <br>
+
+          YOUR DATA IS SAFE & SECURE.</p>
+
+        <a href="#" class="link_btn">Read about it  <span class="ps-3">→</span></a>
+
+      </div>
+
+
+    </div>
+
+    <div class="position-absolute mockup_design">
+      <img src="assets/imgs/brown_bg_mockup.svg" alt="mockup design" class="w-100">
+    </div>
+  </div>
+</section>
+
+<section class=" download_section" [style]="'background-color:var(--tetiary-color)'">
+  <div class="container-xxl d-flex align-items-center justify-content-between">
+    <div class="text text-light w-50 d-flex gap-5 flex-column">
+      <h1>Just a tap away with our App</h1>
+      <p class="fs-5">Why wait? With DormDrive, getting around campus has never been easier 
+        or more affordable. Enjoy the convenience of hailing a ride with just a
+         few taps, and benefit from our special student discounts. 
+        Download DormDrive now and start enjoying the ride!</p>
+
+       <a href="#" class="download_btn_dark_brown">Download the App</a> 
+    </div>
+    <div class="img w-50 d-flex justify-content-end">
+      <img src="assets/imgs/group_mockup.svg" alt="group of mockup images" class="img-fluid">
+    </div>
+  </div>
+</section>
+
+<section class="container-xxl my-5">
+  <h2 class="text-center" [style]="'color: var(--secondary-color)'">FAQs</h2>
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        What safety measures are in place for passengers?
+      </button>
+      <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">We prioritize the safety of our passengers and have implemented various safety measures, including background checks for drivers, vehicle inspections, and a two-way rating system to ensure accountability and transparency.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Is there customer support available?
+      </button>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Yes, we have a dedicated customer support team available 24/7 to assist you with any inquiries, issues, or feedback you may have. You can reach out to us through the app's help section or contact us directly via phone or email.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Can I schedule a ride in advance?
+      </button>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Yes, you can schedule a ride in advance through the app. Simply select the "Schedule Ride" option when making your booking, and choose the date and time you'd like to be picked up.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+        Are there any additional fees or surcharges? 
+      </button>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">We aim to be transparent about our pricing. Any additional fees or surcharges, such as peak-hour pricing or tolls, will be clearly communicated to you before confirming your ride request.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<app-footer></app-footer>
