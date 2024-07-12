@@ -8,6 +8,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavLinksComponent } from './partials/nav-links/nav-links.component';
 import { AboutComponent } from './pages/about/about.component';
+import { GetStartedBtnComponent } from './partials/get-started-btn/get-started-btn.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AboutComponent } from './pages/about/about.component';
     NavComponent,
     HomeComponent,
     NavLinksComponent,
-    AboutComponent
+    AboutComponent,
+    GetStartedBtnComponent
   ],
   imports: [
     BrowserModule,
