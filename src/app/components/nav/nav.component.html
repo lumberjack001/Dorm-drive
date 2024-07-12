@@ -6,7 +6,7 @@
 
     <app-nav-links [style.fontWeight]="'600'" class="d-flex nav-links flex-row gap-5"></app-nav-links>
 
-    <a href="#" class="partner-btn">Get Started</a>
+    <app-get-started-btn></app-get-started-btn>
     <button *ngIf="hide === false" (click)="toggleMenu()" class="menu"><img src="assets/icons/menu.png" alt=""></button>
     <button *ngIf="hide != false" (click)="toggleMenu()" class="menu-close"><img src="assets/icons/menu.png" alt=""></button>
   </section>
