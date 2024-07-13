@@ -9,6 +9,8 @@
 .value_card_img{
   width: 60px;
 }
-// .mission_vision_cards{
-  
-// }
+@media (max-width:576px) {
+  .small-width-100 {
+    width: 100% !important;
+  }
+}
