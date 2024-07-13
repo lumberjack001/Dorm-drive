@@ -6,9 +6,9 @@
 
     <app-nav-links [style.fontWeight]="'600'" class="d-flex nav-links flex-row gap-5"></app-nav-links>
 
-    <app-get-started-btn></app-get-started-btn>
-    <button *ngIf="hide === false" (click)="toggleMenu()" class="menu"><img src="assets/icons/menu.png" alt=""></button>
-    <button *ngIf="hide != false" (click)="toggleMenu()" class="menu-close"><img src="assets/icons/menu.png" alt=""></button>
+    <app-get-started-btn class="get_started_btn"></app-get-started-btn>
+    <button *ngIf="hide === false" (click)="toggleMenu()" class="menu "><img src="assets/icons/menu.png" class="img-fluid" alt=""></button>
+    <button *ngIf="hide != false" (click)="toggleMenu()" class="menu"><img src="assets/icons/menu.png" class="img-fluid" alt=""></button>
   </section>
 
   <section class="nav-sm text-center" [attr.data-visible]="hide">

@@ -1,6 +1,6 @@
 <app-nav></app-nav>
 <section class="home_hero d-flex gap-3 flex-column align-items-start justify-content-center ">
-  <div class="container-xxl d-flex  position-relative">
+  <div class="container-xxl container-xl container-lg container-md container-sm  d-flex flex-column gap-5 flex-lg-row position-relative">
     <div class="hero_txt d-flex flex-column gap-3">
       <h1>Arrive <span [style]="'color: var(--secondary-color); font-style: italic; font-weight: bold;'">Smarter</span>: <br>  
         Your Ride, Your Way!</h1>
@@ -12,16 +12,16 @@
         <a href="#" class="button download-btn-sm m-0 mb-xxl-4 mb-lg-2 mb-md-2 mb-sm-2 "><img src="assets/imgs/ios-download.png" alt="" class="img-fluid "></a>
       </div>
     </div>
-    <div class="hero_img position-absolute">
+    <div class="hero_img ">
       <img src="assets/imgs/hero_mockup.svg" alt="app mock up" class="w-100">
     </div>
   </div>
 </section>
 
-<section class="what_we_container container-xxl mt-5" id="waitlist">
-  <h2 class="text-center" [style]="'color: var(--secondary-color);'">What we do?</h2>
+<section class="what_we_container container-xxl  container-xl container-lg container-md container-sm  mt-5" id="waitlist">
+  <h2 class="text-center what_we_do" [style]="'color: var(--secondary-color);'">What we do?</h2>
 
-  <aside class="d-flex gap-5 my-5 pt-5">
+  <aside class="d-flex flex-column what_we_aside what_we_aside_first gap-5 my-5 pt-5">
     <div class="text w-50 d-flex flex-column gap-4">
       <h1 [style]="'color: var(--secondary-color);'">Never miss a class, again!</h1>
       <p class="">DormDrive comes with a subsidized, one-time subscription package for students in tertiary institutions to ensure that they arrive in time for their daily functions in the school environment. 
@@ -36,7 +36,7 @@
       <img src="assets/imgs/driver_1.png" alt="" class="img-fluid">
     </div>
   </aside>
-  <aside class="d-flex gap-5 my-5 pt-5">
+  <aside class="d-flex flex-column-reverse what_we_aside gap-5 my-5 pt-5">
     <div class="img w-50">
       <img src="assets/imgs/student_1.png" alt="" class="img-fluid">
     </div>
@@ -48,11 +48,11 @@
   </aside>
 </section>
 
-<section class="services container-xxl position-relative">
+<section class="services container-xxl  container-xl container-lg container-md container-sm  position-relative">
   <h2 class="text-center mb-5" [style]="'color: var(--secondary-color);'">Why DormDrive?</h2>
   <div class="services_wrapper position-relative">
 
-    <div class="services_img_container">
+    <div class="services_img_container d-none d-md-block">
       <img src="assets/imgs/book_mockup.svg" alt="" class="w-100">
     </div>
 
@@ -104,14 +104,18 @@
 
     </div>
 
-    <div class="position-absolute mockup_design">
+    <div class="services_img_container d-block d-md-none">
+      <img src="assets/imgs/book_mockup.svg" alt="" class="w-100">
+    </div>
+
+    <div class="position-absolute mockup_design d-none d-md-block">
       <img src="assets/imgs/brown_bg_mockup.svg" alt="mockup design" class="w-100">
     </div>
   </div>
 </section>
 
 <section class=" download_section" [style]="'background-color:var(--tetiary-color)'">
-  <div class="container-xxl d-flex align-items-center justify-content-between">
+  <div class="container-xxl  container-xl container-lg container-md container-sm  d-flex flex-column flex-md-row align-items-center justify-content-between gap-4 just_a_tap">
     <div class="text text-light w-50 d-flex gap-5 flex-column">
       <h1>Just a tap away with our App</h1>
       <p class="fs-5">Why wait? With DormDrive, getting around campus has never been easier 
@@ -127,7 +131,7 @@
   </div>
 </section>
 
-<section class="container-xxl my-5">
+<section class="container-xxl  container-xl container-lg container-md container-sm  my-5">
   <h2 class="text-center" [style]="'color: var(--secondary-color)'">FAQs</h2>
   <div class="accordion accordion-flush" id="accordionFlushExample">
     <div class="accordion-item">

@@ -31,8 +31,9 @@ nav{
 @media (max-width: 815px) {
   .menu, .menu-close{
     display: block;
+    width: 35px;
   }
-  .nav-links, .partner-btn{
+  .nav-links, .partner-btn, .get_started_btn{
     display: none !important;
   }
 
@@ -58,14 +59,12 @@ nav{
   }
 
   .logo-img{
-    width: 25%;
-  }
+    width: 100px;
+  } 
 }
 
 @media (max-width: 400px) {
-  .logo-img{
-    width: 50%;
-  }
+  
   .nav{
     padding-inline: 0;
     padding-inline-start: 0.8rem;
